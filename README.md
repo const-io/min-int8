@@ -35,7 +35,7 @@ MIN_INT8 === -1 * Math.pow( 2, 7 );
 var MIN_INT8 = require( 'compute-const-min-int8' );
 
 console.log( MIN_INT8 );
-// returns -127
+// returns -128
 ```
 
 To run the example code from the top-level application directory,
