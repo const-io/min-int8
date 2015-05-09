@@ -25,7 +25,15 @@
   "keywords": [
     "compute.io",
     "compute",
-    "computation"
+    "computation",
+    "min",
+    "minimum",
+    "int8",
+    "integer",
+    "signed",
+    "8-bit",
+    "const",
+    "constant"
   ],
   "bugs": {
     "url": "https://github.com/compute-io/const-min-int8/issues"

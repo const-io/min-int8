@@ -1,4 +1,4 @@
-const-min-int8
+Min Int8
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependencies][dependencies-image]][dependencies-url]
 
@@ -17,18 +17,25 @@ For use in the browser, use [browserify](https://github.com/substack/node-browse
 ## Usage
 
 ``` javascript
-var foo = require( 'compute-const-min-int8' );
+var MIN_INT8 = require( 'compute-const-min-int8' );
 ```
 
-#### foo( arr )
+#### MIN_INT8
 
-What does this function do?
+Minimum signed 8-bit integer.
+
+``` javascript
+MIN_INT8 === -1 * Math.pow( 2, 7 );
+```
 
 
 ## Examples
 
 ``` javascript
-var foo = require( 'compute-const-min-int8' );
+var MIN_INT8 = require( 'compute-const-min-int8' );
+
+console.log( MIN_INT8 );
+// returns -127
 ```
 
 To run the example code from the top-level application directory,
