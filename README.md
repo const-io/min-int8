@@ -8,14 +8,14 @@ MIN INT8
 ## Installation
 
 ``` bash
-$ npm install compute-const-min-int8
+$ npm install const-min-int8
 ```
 
 
 ## Usage
 
 ``` javascript
-var MIN_INT8 = require( 'compute-const-min-int8' );
+var MIN_INT8 = require( 'const-min-int8' );
 ```
 
 #### MIN_INT8
@@ -30,7 +30,7 @@ MIN_INT8 === (-1 * Math.pow(2,7));
 ## Examples
 
 ``` javascript
-var MIN_INT8 = require( 'compute-const-min-int8' );
+var MIN_INT8 = require( 'const-min-int8' );
 
 console.log( MIN_INT8 );
 // returns -128
@@ -100,8 +100,8 @@ $ make view-browser-tests
 Copyright &copy; 2015-2016. The [Compute.io][compute-io] Authors.
 
 
-[npm-image]: http://img.shields.io/npm/v/compute-const-min-int8.svg
-[npm-url]: https://npmjs.org/package/compute-const-min-int8
+[npm-image]: http://img.shields.io/npm/v/const-min-int8.svg
+[npm-url]: https://npmjs.org/package/const-min-int8
 
 [build-image]: http://img.shields.io/travis/const-io/min-int8/master.svg
 [build-url]: https://travis-ci.org/const-io/min-int8

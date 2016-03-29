@@ -1,5 +1,5 @@
 {
-  "name": "compute-const-min-int8",
+  "name": "const-min-int8",
   "version": "1.0.1",
   "description": "Minimum signed 8-bit integer.",
   "author": {
